@@ -15,7 +15,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || 'KANGO~Q7ln3bTK#sqdgBYDqRNZrhz0c3JlGrndXQ2I5Cs1GOpFTKVdosCM' 
+global.SESSION_ID = process.env.SESSION_ID || 'KANGO~8uk3QKAA#b2ajnEpppijWhuEsBRkuQCUVUNj0nFgRINzaaT0BcPg' 
 //Enter your KANGO-XMD session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
@@ -24,7 +24,7 @@ global.botname = process.env.BOT_NAME || 'KANGO-XMD'
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '2349045077440' 
+global.ownernumber = process.env.OWNER_NUMBER || '2347017495704' 
 
 //--------------------[ SUDO ]--------------------------//
 
@@ -34,11 +34,11 @@ global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['233509977126', 
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'yoongi bish' 
+global.ownername = process.env.OWNER_NAME || 'Arikeh' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "yoongi~bish" 
+global.packname = process.env.STICKER_PACK_NAME || "Arikeh" 
 
 //--------------[ COUNTRY TIMEZONE ]------------//
 
@@ -49,7 +49,7 @@ global.timezones = 'Africa/Accra';  // Set this to you timezone
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "Hannat" 
+global.author = process.env.STICKER_AUTHOR_NAME || "Arikeh" 
 
 //----------------[ GITHUB DATABASE ]-----------------//
 
